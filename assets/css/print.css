@@ -1,0 +1,32 @@
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fontbesar {
+    font-size: 25px;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    position: relative;
+    font-family: verdana, arial, sans-serif;
+    color: rgb(1, 18, 75);
+    padding: 1px;
+    top: 1px;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+table {
+    font-family: verdana, arial, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #3A3A3A;
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+table th {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(26, 255, 236);
+    background-color: #031aeb;
+    color: #ffffff;
+}
+
+table tr:hover td {
+    cursor: pointer;
+}
+ 
+table td {
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(26, 255, 236);
+    color: rgb(0, 32, 8);
+}
+.masuk{
+    background-color: #e2fdff;
+}
+.keluar{
+    background-color: #fa8080a4;
+}
